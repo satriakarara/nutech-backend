@@ -32,6 +32,6 @@ mongoose
 
 const PORT = process.env.PORT || 8000
 app.listen(PORT, () => {
-  console.log(process.env.BASE_URL)
+  console.log(process.env.DATABASE_URL)
   console.log(`Server running on http://localhost:${PORT}`)
 })
